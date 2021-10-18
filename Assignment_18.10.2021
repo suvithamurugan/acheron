@@ -1,0 +1,26 @@
+Create a java project in eclipse with the name as Assignments
+
+Basics
+ Create a package com.shristi.basic
+ Create a class with PSVM for each question (eg) Greater, Smaller,
+EvenNumbers, SecondSmall, Factorial
+1. Greatest in an array
+2. Smallest in an array
+3. even numbers up to 20
+4. odd numbers up to 20
+5. second smallest in an array
+6. secone largest in an array
+7. factorial for a number
+8. sum and avg of all digits in array
+9. armstrong number
+10. perfect number
+11. fibonacci series
+12. prime
+13. pattern 1 22 333 4444
+14. pattern 1 23 456 789
+15. pyramid with stars - half upto * ** *** **** *****
+16. pyramid with stars - half upto ***** **** *** ** *
+17. count the duplicates in an array
+18. reverse the number
+19. reverse the numbers in an array
+20. sort the array in ascending order
