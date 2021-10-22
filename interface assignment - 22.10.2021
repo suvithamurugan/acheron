@@ -1,0 +1,11 @@
+1.	Create an interface BasicCalculator with methods as
+a.	void add(int x, int y);
+b.	void difference(int x, int y);
+c.	void product(int x, int y);
+d.	void divide(int x, int y);
+ Implement the methods in a class Basic 
+Now add one interface ScientificCalculator that extends BasicCalculator and add method   - 
+•	void square(int x);
+•	void cube(int x);
+Create class Scientific that extends Basic and implements ScientificCalculator and implement the methods
+Create a main class and call the methods
