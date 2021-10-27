@@ -1,0 +1,15 @@
+Streams
+
+Java project StreamsApp
+Employee -  name, city, empid
+EmpMain
+ 
+Main 
+// add 5 employees to list
+List<Emp> empLst = Arrays.asList(new Employee(),new Employee(),e1,e2, e3)
+ 
+1. print all employees - forEach
+2. print employees based on city - stream, filter, forEach
+3. print all employees after sorting - stream, sorted(lambda), forEach
+4. print one employee by id, if not available throw runtime- stream, filter, findFirst,orelsethrow 
+5. print all employee names that start with K , if not available print ("not in first place") stream, filter, findFirst,orelse
