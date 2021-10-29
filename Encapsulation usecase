@@ -1,0 +1,61 @@
+Ticket Reservation – Encapsulation
+
+You have developed a ticket booking application used by one of the leading travels. The travels have many other booking agents as well. Since your app works perfectly fine, The travels have advised the other vendors / agents to call your methods for booking. During the lean period, The travels come out with an interesting strategy. They start giving discounts to children and old-age people to encourage them to book tickets at a lower price. The travels decide on day - to - day basis the discounts for various segments, namely children, OldAge and females.
+
+In the above scenario, the discounts have to be communicated to each and every vendor, so that they can include in their ticket price calculation. There is every chance some of them might miss the inclusion and the whole cost goes wrong.
+
+The simple solution would be, the vendors would not calculate the total amount directly by accessing your variable. They would just call your getTotalAmount method which would calculate the total amount based on discounts. So, the discounts have to be changed at only one place.
+
+Let’s just go ahead and implement our Ticket Reservation Functionality.
+
+All the attributes going forward has to be marked private.
+
+Please have
+A Ticket class with passengerCount , price and totalAmount as its attributes, an addPerson (Person person) which would increase the passengerCount and total amount when a new person is added.
+A Person Class with name, gender and age as its attributes.
+
+Use Appropriate Getters Setters & Constructors as you feel necessary.
+
+Assume the following discounts
+
+For Children age less than 16 - 50% discount
+For Old age greater than 64 - 25% discount
+For Ladies - 10% discount
+
+
+Hint :
+The first file name should be "Main.java"
+ 
+
+Sample input output:
+
+
+Enter Price of a ticket :
+100
+Enter Number of Persons :
+3
+Enter Details for Person 1 :
+Name :
+Amar
+Gender (M or F) :
+M
+Age :
+14
+Enter Details for Person 2 :
+Name :
+Thana
+Gender (M or F) :
+M
+Age :
+20
+Enter Details for Person 3 :
+Name :
+Rajini
+Gender (M or F) :
+M
+Age :
+70
+Ticket Details are :
+Number of Passengers : 3
+Price of a ticket : 100.0
+Total Amount : 225.0
